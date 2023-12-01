@@ -6,7 +6,7 @@
     <title>HTML</title>
     <link rel="stylesheet" type="text/css" href="style.css">
    
-   <style> /* 
+   <style> 
         h2 { color:purple;
             font-size: 2em;
         
@@ -23,12 +23,26 @@
         
         }
 
+        .button {
+            background-color: orange;
+            color: black;
+            text-decoration: none;
+            font-weight: 600;
+            padding: 10px 15px; 
+            border-radius: 4px;
+        }
+
+        .circle {
+            border-radius: 100%;
+        }
+
        
         #primeirop {background-color: gray;
         font-style: italic;
         
         }
         p {font-family:monospace}
+
         #amarelo {background-color: yellow;
         font-weight: bold;}
         #vermelho {background-color: red;
@@ -58,14 +72,14 @@
     
     <h2>Veja Abaixo Cachorro Cururu</h2>
    
-    <img src = "https://i.redd.it/xevid3fyws151.png" widht="300" alt="Cachorro Cururu">
-    <img src ="cachorro.jpg" width="450" alt="Cachorro Cururu 2"
+    <img class="circle"  src = "https://i.redd.it/xevid3fyws151.png" widht="10" alt="Cachorro Cururu">
+    <img class="circle" src ="cachorro.jpg" width="300" alt="Cachorro Cururu 2"
     
     <p> <br>
        
         <p>Essa linha dentro desse site ira conter uma fonte difernte</p>
    
-        <a class="lista" href="https://vidadebicho.globo.com/saude/noticia/2022/11/cachorro-cururu-entenda-a-sindrome-que-causa-encurtamento-em-caes.ghtml" target="_blank">Saiba Sobre</a>
+        <a class="button" href="https://vidadebicho.globo.com/saude/noticia/2022/11/cachorro-cururu-entenda-a-sindrome-que-causa-encurtamento-em-caes.ghtml" target="_blank">Saiba Sobre</a>
 </p>
     <ol>
         <ul id="amarelo">Amarelo</ul>
