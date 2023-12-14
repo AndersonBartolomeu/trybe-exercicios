@@ -3,7 +3,7 @@ h2 { color:purple;
     font-size: 2em;
 
 }
-body {background-color: rgb(165,128,100);
+body {background-color: rgb(85, 103, 47);
     font-size:20px  ;
 
 }
@@ -13,6 +13,38 @@ line-height: 40px;
 text-align: center;
 text-decoration: underline;
 
+}
+
+ #dog1{
+    width: 100px;
+    float: left;
+    margin-right: 10px;
+ }
+
+#dog2{
+    width: 500px;
+}
+
+#salsicha{
+    width: 100px;
+    z-index: 3;
+    
+}
+#cigarro{
+    width: 35px;
+    position: absolute;
+    top: px;
+    left: 8px;
+    z-index: 2;
+    
+}
+
+#oculos{
+    width: 50px;
+    position: absolute;
+    left: 35px;
+    top: 1080p;
+    z-index: 1;
 }
 
 .button {
@@ -33,14 +65,24 @@ text-decoration: underline;
 font-style: italic;
 
 }
-p {font-family:monospace}
 
-#amarelo {background-color: yellow;
+#pp { font-family:fantasy;
+    font-style: italic;
+    font-size: 15px;
+    position: absolute;
+    top: 1125px;
+    z-index: 4;
+}
+
+
+#amarelo {background-color: rgb(255, 255, 0);
 font-weight: bold;}
 #vermelho {background-color: red;
 font-style: italic;}
 #verde {background-color: green;
 text-decoration: underline;}
 #azul {background-color: blue;} */
+
+
 
 </style>
