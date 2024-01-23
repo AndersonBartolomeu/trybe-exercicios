@@ -5,7 +5,7 @@ body {
 }
 
 #dog1 {
-    width: 50px;
+    width: 100px;
     float: left;
     margin-right: 10px;
 }
@@ -33,9 +33,16 @@ body {
     background-image:url("/images/cururupaisagem.png");
     background-position: 20% 4%;
     background-size: cover;
-    
-    
+    padding: 60px 40px 50px;
+    }
 
+    #header-cont {
+        max-width: 800px;
+        margin-left: 50pxs;
+    }
+
+#primeiroparag {
+    color: white;
 }
 #salsicha {
     width: 150px;
