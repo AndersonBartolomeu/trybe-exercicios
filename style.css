@@ -108,11 +108,15 @@ body {
 #amarelo {
     background-color: rgb(255, 255, 0);
     font-weight: bold;
+    border-style: solid;
+    border-color: rgb(218, 197, 15);
 }
 
 #vermelho {
     background-color: red;
     font-style: italic;
+    border-style: solid;
+    border-color: rgb(187, 33, 33);
 }
 
 #verde {
